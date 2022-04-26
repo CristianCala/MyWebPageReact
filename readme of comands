@@ -1,0 +1,58 @@
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-web-page
+  npm start
+
+
+src/
+|-- components/
+|	 |- atoms/
+|  |  |-- Button/
+|	 |  |   |-- Button.jsx
+|	 |  |   |-- Button.test.js
+|  |- molecules
+|  |- organisms
+|  |- templates
+|-- contexts/
+|   |-- UserContext/
+|   |   |-- UserContext.js
+|-- hooks/
+|   |-- useMediaQuery/
+|   |   |-- useMediaQuery.js
+|-- pages/
+|   |-- UserProfile/
+|   |   |-- components/
+|   |   |   |-- SomeUserProfileComponent/
+|   |   |   |   |-- SomeUserProfileComponent.jsx
+|   |   |   |   |-- SomeUserProfileComponent.test.js
+|   |   |-- UserProfile.jsx
+|   |   |-- UserProfile.test.js
+|   |-- index.js
+|-- routes/
+|   |-- routes.jsx
+|   |-- routes.test.js
+|-- utils/
+|   |-- some-util/
+|   |   |-- index.js
+|   |   |-- someUtil.js
+|   |   |-- index.test.js
+|-- services/
+|   |-- some-service/
+|   |   |-- index.js/
+|   |   |-- someService.js/
+|   |   |-- index.test.js
+|-- App.jsx
+|-- index.js
